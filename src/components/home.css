@@ -1,0 +1,18 @@
+.proposal-btn {
+    border: none;
+    border-radius: 9999px;      /* rounded-full */
+     
+     background-color: #ff0073; /* bg-amber-600 */
+    color: white;               /* text-white */
+    padding: 16px 32px;         /* px-8 py-4 */
+    font-size: 18px;            /* text-lg */
+    font-weight: 600;           /* font-semibold */
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* shadow-lg */
+    transition: all 0.3s ease;  /* transition-all duration-300 */
+}
+
+.proposal-btn:hover {
+    background-color: #dd0e0e;  /* hover:bg-pink-600 */
+    transform: scale(1.05);     /* hover:scale-105 */
+}

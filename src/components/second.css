@@ -1,0 +1,16 @@
+.continue {
+  background-color: #ec4899; /* bg-pink-500 */
+  color: white;
+  font-weight: 600;
+  padding: 12px 32px; /* py-3 px-8 */
+  border: none;
+  border-radius: 9999px; /* rounded-full */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15); /* shadow-lg */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.continue:hover {
+  background-color: #db2777; /* hover:bg-pink-600 */
+  transform: scale(1.05); /* hover:scale-105 */
+}
